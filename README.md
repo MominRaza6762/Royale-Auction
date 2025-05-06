@@ -1,6 +1,6 @@
 # Royale-Auction
 
-**Royale-Auction** is an online platform that specializes in antique and vintage furniture and accessories, providing customers with luxury, sophistication, and unique character for their homes. The platform features a wide range of 19th and 18th-century European antique furniture, offering a collection of vintage pieces, including lighting, clocks, mirrors, sculptures, and more.
+**Royale-Auction** is a React-based front-end project showcasing a curated collection of antique and vintage furniture. The platform offers 18th and 19th-century European pieces, along with personalized services like appraisals, auctions, and sourcing unique items. Built with React and Vite, it provides an elegant, user-friendly interface for exploring and purchasing luxury antiques.
 
 ## ✨ Features
 
