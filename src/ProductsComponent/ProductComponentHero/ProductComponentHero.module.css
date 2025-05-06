@@ -1,0 +1,50 @@
+.ProductComponentHero {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  margin: 100px;
+  margin-bottom: 0;
+}
+.ProductComponentHeroContainer{
+  display: flex;
+  border-bottom: 2px solid whitesmoke;
+  padding: 10px 0;
+}
+.ProductComponentHeroHeading {
+  font-size: 30px;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+.ProductHeroLink {
+  color: whitesmoke;
+  font-weight: 200;
+}
+.ProductHeroLink:hover {
+  color: blueviolet;
+}
+.ProductHeroPath {
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 70px;
+}
+@media screen and (max-width: 600px) {
+  .ProductComponentHero {
+    margin: 70px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .ProductComponentHeroHeading {
+    font-size: 20px;
+  }
+  .ProductComponentHero {
+    margin: 50px;
+    margin-bottom: 0;
+  }
+  .ProductHeroPath {
+    font-size: 40px;
+  }
+}

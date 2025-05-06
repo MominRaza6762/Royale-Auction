@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+:root {
+  --header-height: 3.5rem;
+  --first-color: hsl(28, 88%, 62%);
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 75%);
+  --body-color: #000000;
+  --body-font: "Montserrat", sans-serif;
+  --second-font: "Dancing Script", cursive;
+  --h2-font-size: 1.25rem;
+  --small-font-size: 0.813rem;
+  --font-semi-bold: 600;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  scroll-behavior: smooth scroll;
+  scrollbar-width: none;
+  ::-webkit-scrollbar {
+    display: none;
+}
+  /* Animate css  */
+  --animate-duration: 2000ms;
+  --animate-delay: 0.9s;
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

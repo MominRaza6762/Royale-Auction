@@ -1,0 +1,147 @@
+.HLife {
+  padding: 15% 3%;
+  color: #f1f1f1;
+  h1 {
+    font-size: 70px;
+    font-weight: bolder;
+  }
+  display: flex;
+  flex-direction: column;
+}
+.HLifeContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.HLifeContainerLeft {
+  display: flex;
+  width: 25%;
+  video {
+    width: 100%;
+  }
+}
+.HLifeContainerMid {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 20px;
+  h3 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 10px 0;
+    line-height: 30px;
+  }
+  p {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+.HLifeContainerRight {
+  display: flex;
+  margin-top: 40px;
+  width: 35%;
+  padding: 0 20px;
+  p {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .HLifeContainerLeft {
+    width: 40%;
+  }
+  .HLifeContainerMid {
+    width: 30%;
+    padding: 0 10px;
+    h3 {
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 5px 0;
+      line-height: 26px;
+    }
+    p {
+      line-height: 22px;
+    }
+  }
+  .HLifeContainerRight {
+    width: 30%;
+    padding: 0 10px;
+    p {
+      line-height: 26px;
+    }
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .HLifeContainer {
+    flex-direction: column;
+  }
+  .HLifeContainerLeft,
+  .HLifeContainerMid,
+  .HLifeContainerRight {
+    width: 100%;
+  }
+  .HLifeContainerLeft {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 70%;
+      height: 500px;
+    }
+  }
+  .HLifeContainerMid {
+    padding: 20px 40px;
+    h3 {
+      font-size: 20px;
+      letter-spacing: 2px;
+      padding: 10px 0;
+      line-height: 30px;
+    }
+    p {
+      line-height: 30px;
+      font-size: 16px;
+    }
+  }
+  .HLifeContainerRight {
+    padding: 20px 40px;
+    p {
+      line-height: 30px;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  /* .HLifeContainerLeft {
+    img {
+      height: 400px;
+    }
+  } */
+  .HLifeContainerMid {
+    padding: 10px 10px;
+    h3 {
+      font-size: 16px;
+      letter-spacing: 1px;
+      padding: 5px 0;
+      line-height: 24px;
+    }
+    p {
+      line-height: 24px;
+      font-size: 14px;
+    }
+  }
+  .HLifeContainerRight {
+    padding: 10px 10px;
+    p {
+      line-height: 24px;
+      font-size: 14px;
+    }
+  }
+}

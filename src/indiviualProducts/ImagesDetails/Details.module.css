@@ -1,0 +1,184 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+}
+.detailsContainerLeft {
+  display: flex;
+  /* justify-content: center; */
+  width: 60%;
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
+.detailsContainerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.ContainerRightinner {
+  display: flex;
+  margin: 50px 20px;
+}
+.ContainerRightinnerLeft {
+  h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 500;
+  }
+  span {
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+.ContainerRightinnerRight {
+  i {
+    cursor: pointer;
+  }
+}
+
+/* Buttons */
+.buttonsContainer{
+    margin: 0 10px;
+}
+.purchaseBtn:hover{
+    background-color: #FDFDFD !important;
+    color: black !important;
+    font-weight: bolder;
+}
+/* ............ */
+
+.shippingDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px  0;
+    margin: 30px 20px;
+    p {
+        padding: 5px 0;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 630px) {
+    .detailsContainerLeft{
+        width: 55%;
+        img {
+            width: 400px;
+            height: 400px;
+          }
+    }
+    .detailsContainerRight{
+        width: 45%;        
+    }
+    .ContainerRightinner {
+        margin: 20px 10px;
+      }
+    .ContainerRightinnerLeft{
+        h3{
+            font-size: 18px;
+        }
+        span{
+            font-size: 14px;
+        }
+    }
+    .shippingDetails{
+        margin: 0 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .detailsContainer{
+        flex-direction: column;
+    }
+    .detailsContainerLeft{
+        width: 100%;
+        justify-content: center;
+        img {
+            width: 450px;
+            height: 450px;
+          }
+    }
+    .detailsContainerRight{
+        width: 100%;        
+    }
+}
+
+
+/* Item Details */
+
+.itemDetails {
+  display: flex;
+  width: 100%;
+  padding: 0 30px;
+}
+
+.itemDetailsLeft,
+.itemDetailsMid,
+.itemDetailsRight {
+  flex: 1;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+.itemDetailsLeft{
+  p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    word-break:break-all;
+    color: #FAFAFA;
+  }
+  button {
+    background-color: #434343;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 20px 0;
+    outline: none;
+  }
+  button:hover {
+    background-color: #565656;
+    transform: scale(1.05);
+  }  
+}
+
+.itemDetailsMid{
+  /* Add this CSS to your Details.module.css file */
+.detailsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.detailsTable th, .detailsTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.detailsTable th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+}
+
+.QuestionMarkIcon{
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+@media screen and (max-width:1200px) {
+  .itemDetails{
+    flex-direction: column;
+  }
+  .itemDetailsLeft,
+.itemDetailsMid,
+.itemDetailsRight {
+  width: 100%;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+}
